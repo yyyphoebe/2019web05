@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>190808208刘丹的个人网页----首页</title>
+		<style type="text/css">
+			body{
+				background-color: pink;
+			}
+			p,h2{
+				font-family:方正姚体,楷体;
+				color: #1AA3E0;
+			}
+			a{
+				font-family: 方正姚体,楷体;
+				font-size: 20px;
+				color: #AA1FE6;
+			}
+			h1{
+				font-family: 楷体,华文中宋;
+				font-size: 30px;
+				color: #000000;
+			}
+			*{margin: 0;padding: 0;}
+			li{list-style: none;}
+			a{text-decoration: none;}
+			.nav{
+				width: 500px;
+				margin: 100px auto 0;
+			}
+			.nav h1{
+				height: 40px;
+				font-weight: lighter;
+				line-height: 40px;
+				font-size: 22px;
+			}
+			.nav h1:before{
+				content: '';
+				display: inline-block;
+				width: 40px; 
+				height: 39px;
+				background: url('images/bg1.png') no-repeat -162px -416px;
+				vertical-align: middle;
+			}
+			.nav a{
+				height: 40px;
+				background-color: pink;
+				text-indent: 10px;
+				line-height: 40px;
+				margin-bottom: 1px;
+			}
+			.nav a:hover{
+				background-color: #27BAB0;
+				color: #F4F4F4;
+			}
+			.xiangmutwo{
+				width: 500px;
+				height: 500px;
+				margin: 100px auto;
+				background: url('images/profile.jpg') no-repeat center;
+				border-radius: 50%;
+			}
+			.xiangmutwo a{
+				visibility: hidden;
+				display: block;
+				width: 100%;
+				height: 200px;
+				padding-top: 300px;
+				background-color: rgba(0,0,0,.5);
+				color: #FFF;
+				font-size: 20px;
+				border-radius: 50%;
+			}
+			.xiangmutwo a p{
+				text-align: center;
+				line-height: 20px;
+			}
+			.xiangmutwo:hover a{visibility: visible;}
+			
+		</style>
+	</head>
+
+	<body><!--
+body设置浏览窗口中的主体内容-->
+			<h1>欢迎光临我的个人网站！——首页<h1>
+				<div class="nav">
+					<a href="index.html">首页</a> <a href="about.html">关于我</a> <a href="diary.html">日志</a> <a href="works.html">作品</a> <a href="photo.html">相册</a> <a href="contact.html">联系</a>
+				</div>
+					<h2>基本信息 ：<h2>
+					<p>院系：媒体工程学院<br>软件工程2班<p>
+					<p>学号：190808208</p>
+					<p><em>姓名：</em>刘丹</p>
+					<p>籍贯：四川</p>
+					<p> 兴趣爱好：美食，电影，音乐</p>
+					<video width="320" height="240" controls>
+						<source src="rsc/movie.mp4" type="video/mp4" />
+						您的浏览器不支持 vedio标签。
+					</video>
+		<div class="xiangmutwo">
+			<a href="#">
+				<p>我的头像</p>
+					<p>羊</p>
+			</a>
+		</div>
+					<p class="copyright">&copy;2019&nbsp;All Rights Reserved.</p>
+	</body>
+</html>
